@@ -1,6 +1,6 @@
 from pygame import *
 
-from spriteClass import GameSprite
+from SpriteClass import GameSprite
 
 ''' colors '''
 background = (200, 255, 255)
