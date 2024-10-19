@@ -9,9 +9,9 @@ window = display.set_mode((700, 500))
 window.fill(background)
 
 # Create instances of players or platforms with the correct paths
-platform_left = Player("img/slider.jpg", 50, 200, 5, 55, 80)  # Update to point to slider.jpg
-platform_right = Player("img/slider.jpg", 600, 200, 5, 55, 80)  # Update to point to slider.jpg
-ball = GameSprite("img/ball.jpg", 350, 250, 0, 30, 30)  # Update to point to ball.jpg
+platform_left = Player("img/slider.png", 50, 200, 5, 55, 80)  # Update to point to slider.jpg
+platform_right = Player("img/slider.png", 600, 200, 5, 55, 80)  # Update to point to slider.jpg
+ball = GameSprite("img/ball.png", 350, 250, 0, 30, 30)  # Update to point to ball.jpg
 
 clock = time.Clock()
 
